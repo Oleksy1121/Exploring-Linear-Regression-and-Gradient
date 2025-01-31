@@ -21,7 +21,9 @@ Linear regression can be applied to a single input variable (_univariate model_)
 Linear regression aims to fit a line (_or a hyperplane in the case of multiple dimensions_) to the data in such a way as to minimize the error between the predicted and actual values.
 
 For a single input variable xxx, the model is represented by:
+
 $$y=w_1x+w_2$$​
+
 where:
 * $w_1 -$ the slope (direction coefficient),
 * $w_2 -$ the bias (intercept).
@@ -29,8 +31,11 @@ where:
 For multiple variables, the model takes the form of a multivariate equation:
 
 $$y = \sum_{i=1}^{n}(w_n^{(i)}*x_{features_n}^{(i)})$$
+
 or equivalently:
+
 $$y=w_1x_1 + w_2x_2 +... +w_nx_n + b$$
+
 ---
 ## 2. Prediction in Linear Regression
 
