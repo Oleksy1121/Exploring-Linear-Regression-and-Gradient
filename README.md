@@ -10,10 +10,10 @@ In this project, we will explain how linear regression works and how it can be t
 Linear regression can be applied to a single input variable (_univariate model_) or multiple input variables (_multivariate model_). Below are examples of fitting the model in both two and three dimensions:
 
 - **Linear regression in 2D space** – the red line represents the model best fitted to the data:
-<img src="attachments/Pasted image 20250128215155.png" alt="2D Linear Regression" width="600">
+<img src="attachments/Pasted image 20250128215155.png" alt="2D Linear Regression" width="800">
 
 * **Linear regression in 3D space** – the red plane represents the _model best fitted to the data_:
-<img src="attachments/Pasted image 20250128215402.png" alt="3D Linear Regression" width="600">
+<img src="attachments/Pasted image 20250128215402.png" alt="3D Linear Regression" width="800">
 
 ---
 ## 1. What is Linear Regression?
@@ -78,7 +78,7 @@ Before making predictions, we need to add a column for bias, which ensures that 
    $$\hat{y} = \begin{bmatrix} -50 & 1 \\ 0 & 1 \\ 50 & 1 \end{bmatrix} \cdot \begin{bmatrix} 0.97 \\ -3.96 \end{bmatrix} = \begin{bmatrix} -50.46 \\ -3.96 \\ 44.54 \end{bmatrix}  $$
 
 **Below is the plot representing the prediction:**
-![[Pasted image 20250127175312.png]] 
+<img src="attachments/Pasted image 20250127175312.png" alt="Prediction Results" width="800">
 
 ---
 ## 3. Cost Function
@@ -101,7 +101,7 @@ error = np.square(y-activation).sum()/(2.0*len(y))
 ```
 
 **Below is the visualization of the cost function:**
-![[Pasted image 20250128221253.png]]
+<img src="attachments/Pasted image 20250128221253.png" alt="Cost Function Visualization" width="800">
 
 To summarize, the cost function calculates the model's error, and this error is iteratively optimized toward the minimum. The process of such optimization is described in the next section.
 
@@ -147,10 +147,10 @@ A convergent function is a case where, with each iteration, the cost function su
 
 Below are examples of **gradient descent paths** visualized in both 2D and 3D data:
 
-![[Pasted image 20250124213901.png]]
+<img src="attachments/Pasted image 20250124213901.png" alt="Convergent Gradient in 2D" width="800">
 
 
-![[Pasted image 20250129162959.png]]
+<img src="attachments/Pasted image 20250129162959.png" alt="Convergent Gradient in 3D" width="800">
 
 ---
 #### **2. Divergent Function**
@@ -159,9 +159,9 @@ A **divergent function** occurs when the learning rate is set too high. Although
 
 Below are examples of gradient descent paths in divergent cases for both 2D and 3D data:
 
-![[Pasted image 20250124214806.png]]
+<img src="attachments/Pasted image 20250124214806.png" alt="Divergent Gradient in 2D" width="800">
 
-![[Pasted image 20250129163019.png]]
+<img src="attachments/Pasted image 20250129163019.png" alt="Divergent Gradient in 3D" width="800">
 
 ---
 #### **The Importance of the Learning Rate**
@@ -187,10 +187,10 @@ This repository aims to **visualize this problem** and help you understand how t
 The **bias** in linear regression allows the model to shift relative to the **X-axis**. Without it, the regression line always passes through the point (0,0)(0, 0)(0,0), which can lead to inaccurate predictions.
 
 **Linear regression without bias:**
-![[Pasted image 20250129163050.png]]
+<img src="attachments/Pasted image 20250129163050.png" alt="Linear Regression Without Bias" width="800">
 
 **Linear regression with bias:**
-![[Pasted image 20250129163056.png]]
+<img src="attachments/Pasted image 20250129163056.png" alt="Linear Regression With Bias" width="800">
 
 As shown in the above illustrations, the bias enables the model to vertically shift the regression line, allowing it to fit the data even when the points do not intersect at (0,0)(0, 0)(0,0).
 
