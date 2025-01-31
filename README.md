@@ -10,13 +10,11 @@ In this project, we will explain how linear regression works and how it can be t
 Linear regression can be applied to a single input variable (_univariate model_) or multiple input variables (_multivariate model_). Below are examples of fitting the model in both two and three dimensions:
 
 - **Linear regression in 2D space** – the red line represents the model best fitted to the data:
-<img src="attachments/Pasted image 20250128215155.png" alt="2D Linear Regression" width="800">
-
-<img src="attachments/Pasted image 20250128215155.png" alt="2D Linear Regression" width="800">
-![[Pasted image 20250128215155.png]]
+<img src="attachments/Pasted image 20250128215155.png" alt="2D Linear Regression" width="600">
 
 * **Linear regression in 3D space** – the red plane represents the _model best fitted to the data_:
-![[Pasted image 20250128215402.png]]
+<img src="attachments/Pasted image 20250128215402.png" alt="3D Linear Regression" width="600">
+
 ---
 ## 1. What is Linear Regression?
 
