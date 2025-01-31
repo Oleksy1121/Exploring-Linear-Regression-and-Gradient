@@ -95,9 +95,11 @@ Before making predictions, we need to add a column for bias, which ensures that 
 The cost function measures how well the model fits the data. In linear regression, it is defined as the mean of the squared errors between the actual and predicted values.
 
 The formula for the cost function is as follows:
+
 $$
 J(\Theta) = \frac{1}{2m} \sum_{i=1}^{m}(y^{(i)}-activation^{(i)})^2
 $$
+
 where:
 * $m -$the number of samples,
 * $y -$actual values,
@@ -122,9 +124,11 @@ To update the model's weights, we use the **gradient descent algorithm**. The gr
 The cost function is optimized **iteratively**, meaning that with each iteration of the loop, the gradient descent algorithm updates the weights, bringing the model closer to the minimum of the cost function.
 
 The gradient formula, derived as the partial derivative of the cost function:
+
 $$
 \frac{\partial J(w)}{\partial w_j} = \frac{1}{m} \sum_{i=1}^{m} \left( y^{(i)} - activation^{(i)} \right) x_j^{(i)}
 $$
+
 where:
 * $m -$the number of samples,
 * $y -$actual values,
