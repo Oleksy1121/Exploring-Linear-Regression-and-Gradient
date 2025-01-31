@@ -69,12 +69,17 @@ Before making predictions, we need to add a column for bias, which ensures that 
 
 </center>
 **Matrix multiplication for prediction:**
+
    $$\hat{y} = X \cdot W $$
+   
 **Sample calculations:**
+
    $$\hat{y}_1 = (-50 \cdot 0.97) + (1 \cdot -3.96) = -50.46 $$
    $$\hat{y}_2 = (0 \cdot 0.97) + (1 \cdot -3.96) = -3.96$$
    $$\hat{y}_3 = (50 \cdot 0.97) + (1 \cdot -3.96) = 44.54$$
+   
   **Matrix form:**
+  
    $$\hat{y} = \begin{bmatrix} -50 & 1 \\ 0 & 1 \\ 50 & 1 \end{bmatrix} \cdot \begin{bmatrix} 0.97 \\ -3.96 \end{bmatrix} = \begin{bmatrix} -50.46 \\ -3.96 \\ 44.54 \end{bmatrix}  $$
 
 **Below is the plot representing the prediction:**
