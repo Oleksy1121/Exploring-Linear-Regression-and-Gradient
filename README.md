@@ -104,9 +104,9 @@ J(\Theta) = \frac{1}{2m} \sum_{i=1}^{m}(y^{(i)}-activation^{(i)})^2
 $$
 
 where:
-* $m -$the number of samples,
-* $y -$actual values,
-* $activation -$predicted values.
+* m - the number of samples,
+* y - actual values,
+* activation - predicted values.
 
 As we can observe from the formula, the cost function in linear regression is a **quadratic function**, meaning its shape forms a **paraboloid**, as we will see in the **[section dedicated to gradient visualization](#5.gradient.visualization)**.
 
@@ -134,10 +134,10 @@ $$
 $$
 
 where:
-* $m -$the number of samples,
-* $y -$actual values,
-* $activation -$predicted values,
-* $x -$input data.
+* m - the number of samples,
+* y - actual values,
+* activation - predicted values,
+* x - input data.
 
 **Gradient update implementation in Python:**
 ```python
